@@ -60,7 +60,7 @@ img{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 
@@ -208,9 +208,17 @@ padding-bottom: 94px;
 .benefits-section .list{
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefits-section .item{
+    width: 270px;
 }
 
 .benefits-heading{
+    margin-bottom: 10px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
